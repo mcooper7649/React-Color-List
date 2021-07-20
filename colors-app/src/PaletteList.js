@@ -17,6 +17,9 @@ import blue from "@material-ui/core/colors/blue";
 import red from "@material-ui/core/colors/red";
 import styles from "./styles/PaletteListStyles";
 
+var emoji = require('node-emoji')
+let paletteImg = emoji.get('art');
+
 class PaletteList extends Component {
   constructor(props) {
     super(props);
@@ -54,7 +57,8 @@ handleClick(){
       <div className={classes.root}>
         <div className={classes.container}>
           <nav className={classes.nav}>
-            <h1 className={classes.heading}>🎨 Handy-Palette</h1>
+            <h1 className={classes.heading}>
+           {paletteImg} Handy-Palette</h1>
             <div className={classes.wrapper}>
             <Link to='/palette/new'
             className={classes.button}
