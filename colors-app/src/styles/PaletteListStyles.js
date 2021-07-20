@@ -21,7 +21,10 @@ export default {
     overflow: "scroll"
   },
   heading: {
-    fontSize: "2rem"
+    fontSize: "2rem",
+    backgroundColor: "rgba(255,202,131,0.7)",
+    padding: "20px",
+    borderRadius: "10px 100px / 120px"
   },
   container: {
     width: "50%",
@@ -38,12 +41,24 @@ export default {
   },
   nav: {
     display: "flex",
-    width: "100%",
+    width: "99%",
     justifyContent: "space-between",
     alignItems: "center",
-    color: "white",
+    color: "#2e4357",
     "& a": {
-      color: "white"
+      color: "#2e4357"
+    },
+    [sizes.down("xl")]: {
+      width: "97%"
+    },
+    [sizes.down("l")]: {
+      width: "97%"
+    },
+    [sizes.down("m")]: {
+      width: "97%"
+    },
+    [sizes.down("xs")]: {
+      width: "100%"
     }
   },
   palettes: {
@@ -59,5 +74,14 @@ export default {
       gridTemplateColumns: "repeat(1, 100%)",
       gridGap: "1.4rem"
     }
-  }
+  },
+  button: {
+    margin: "0 0.5rem",
+    padding: "0.5rem",
+    textDecoration: "none",
+    [sizes.down("xs")]: {
+      margin: "0 0.2rem",
+      padding: "0 0.3rem"
+    }
+  },
 };

@@ -7,11 +7,14 @@ export default {
     justifyContent: "flex-start",
     height: "6vh"
   },
+  icon: {
+    color: "rgba(0,0,0,0.6)"
+  },
   logo: {
     marginRight: "15px",
     padding: "0 13px",
     fontSize: "22px",
-    backgroundColor: "#eceff1",
+    backgroundColor: "#d7f1f3",
     fontFamily: "Roboto",
     height: "100%",
     display: "flex",
@@ -35,9 +38,9 @@ export default {
       height: "8px"
     },
     "& .rc-slider-handle, .rc-slider-handle:active, .rc-slider-handle:focus,.rc-slider-handle:hover": {
-      backgroundColor: "green",
+      backgroundColor: "red",
       outline: "none",
-      border: "2px solid green",
+      border: "2px solid red",
       boxShadow: "none",
       width: "13px",
       height: "13px",
@@ -50,6 +53,6 @@ export default {
   },
   selectContainer: {
     marginLeft: "auto",
-    marginRight: "1rem"
+    marginRight: "1rem",
   }
 };

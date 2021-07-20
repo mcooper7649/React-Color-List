@@ -23,7 +23,7 @@ export default {
     justifyContent: "space-between",
     alignItems: "center",
     margin: "0",
-    color: "black",
+    color: "#2e4357",
     paddingTop: "0.5rem",
     fontSize: "1rem",
     position: "relative"

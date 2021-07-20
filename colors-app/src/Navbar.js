@@ -10,6 +10,9 @@ import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import styles from "./styles/NavbarStyles";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPalette } from '@fortawesome/free-solid-svg-icons'
+
 class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -30,7 +33,9 @@ class Navbar extends Component {
     return (
       <header className={classes.Navbar}>
         <div className={classes.logo}>
-          <Link to='/'>reactcolorpicker</Link>
+          <Link to='/'>
+          <FontAwesomeIcon className={classes.icon} icon={faPalette}/>
+          </Link>
         </div>
         {showingAllColors && (
           <div>

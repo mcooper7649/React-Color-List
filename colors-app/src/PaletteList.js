@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Dialog from "@material-ui/core/Dialog";
 import List from "@material-ui/core/List";
+import Button from "@material-ui/core/Button";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemAvatar from "@material-ui/core/ListItemAvatar";
 import Avatar from "@material-ui/core/Avatar";
@@ -27,6 +28,7 @@ class PaletteList extends Component {
     this.closeDialog = this.closeDialog.bind(this);
     this.handleDelete = this.handleDelete.bind(this);
     this.goToPalette = this.goToPalette.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
   openDialog(id) {
     this.setState({ openDeleteDialog: true, deletingId: id });
@@ -41,6 +43,10 @@ class PaletteList extends Component {
     this.props.deletePalette(this.state.deletingId);
     this.closeDialog();
   }
+handleClick(){
+  window.localStorage.clear()
+}
+
   render() {
     const { palettes, classes } = this.props;
     const { openDeleteDialog } = this.state;
@@ -48,8 +54,26 @@ class PaletteList extends Component {
       <div className={classes.root}>
         <div className={classes.container}>
           <nav className={classes.nav}>
-            <h1 className={classes.heading}>React Colors</h1>
-            <Link to='/palette/new'>Create Palette</Link>
+            <h1 className={classes.heading}>🎨 Handy-Palette</h1>
+            <div className={classes.wrapper}>
+            <Link to='/palette/new'
+            className={classes.button}
+            >
+            
+            <Button variant='contained'
+                color='primary'
+              >
+              Custom Palette
+              </Button></Link>
+              <a className={classes.button} href="/">
+              <Button variant='contained'
+                color='secondary'
+                onClick={this.handleClick}
+              >
+              Restore
+              </Button>
+              </a>
+              </div>
           </nav>
           <TransitionGroup className={classes.palettes}>
             {palettes.map(palette => (

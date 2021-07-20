@@ -27,11 +27,11 @@ export default {
   },
   copyText: {
     color: props =>
-      chroma(props.background).luminance() >= 0.7 ? "black" : "white"
+      chroma(props.background).luminance() >= 0.7 ? "rgba(0,0,0,0.6)" : "white"
   },
   colorName: {
     color: props =>
-      chroma(props.background).luminance() <= 0.08 ? "white" : "black"
+      chroma(props.background).luminance() <= 0.08 ? "white" : "rgba(0,0,0,0.6)"
   },
   seeMore: {
     color: props =>
