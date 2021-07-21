@@ -60,15 +60,6 @@ handleClick(){
             <h1 className={classes.heading}>
            {paletteImg} Handy-Palette</h1>
             <div className={classes.wrapper}>
-            <Link to='/palette/new'
-            className={classes.button}
-            >
-            
-            <Button variant='contained'
-                color='primary'
-              >
-              Custom Palette
-              </Button></Link>
               <a className={classes.button} href="/">
               <Button variant='contained'
                 color='secondary'
