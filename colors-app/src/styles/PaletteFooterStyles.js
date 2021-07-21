@@ -2,7 +2,6 @@ import sizes from "./sizes";
 
 export default {
   PaletteFooter: {
-    padding: "10px",
     backgroundColor: "#d7f1f3",
     height: "5vh",
     display: "flex",
@@ -15,12 +14,12 @@ export default {
     margin: "0 1rem"
   },
   button: {
-    margin: "0 .5rem",
-    padding: "0 0.5rem",
+    // margin: "0 .5rem",
+    // padding: "0 0.5rem",
     textDecoration: "none",
-    [sizes.down("xs")]: {
-      margin: "0 0.2rem",
-      padding: "0 0.3rem"
-    }
+    // [sizes.down("xs")]: {
+    //   margin: "0 0.2rem",
+    //   padding: "0 0.3rem"
+    // }
   }
 };
