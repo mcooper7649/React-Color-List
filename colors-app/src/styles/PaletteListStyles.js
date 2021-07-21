@@ -29,6 +29,7 @@ export default {
   container: {
     width: "50%",
     display: "flex",
+    padding: "0 0 40px 0",
     alignItems: "flex-start",
     flexDirection: "column",
     flexWrap: "wrap",
@@ -38,6 +39,10 @@ export default {
     [sizes.down("xs")]: {
       width: "75%"
     }
+  },
+  div: {
+    margin: "10px",
+    display: "inline-grid"
   },
   nav: {
     display: "flex",
