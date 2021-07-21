@@ -3,7 +3,7 @@ export default {
   Palette: {
     height: "100vh",
     overflow: "scroll",
-    display: "flex",
+    display: "flow-root",
     flexDirection: "column"
   },
 
