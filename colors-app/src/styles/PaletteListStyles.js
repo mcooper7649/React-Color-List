@@ -18,7 +18,7 @@ export default {
     /* background by SVGBackgrounds.com */
     backgroundColor: "#fff",
     backgroundImage: `url(${bg})`,
-    overflow: "scroll"
+    overflow: "auto"
   },
   heading: {
     fontSize: "2rem",
@@ -29,7 +29,7 @@ export default {
   container: {
     width: "50%",
     display: "flex",
-    alignItems: "flex-start",
+    alignItems: "center",
     flexDirection: "column",
     flexWrap: "wrap",
     [sizes.down("xl")]: {
