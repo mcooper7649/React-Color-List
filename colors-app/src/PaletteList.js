@@ -59,7 +59,7 @@ handleClick(){
         <div className={classes.container}>
           <nav className={classes.nav}>
             <h1 className={classes.heading}>
-           {paletteImg} Handy-Palette</h1>
+           {paletteImg} Handy Palette</h1>
             <div className={classes.wrapper}>
               <a className={classes.button} href="/">
               <Button variant='contained'
