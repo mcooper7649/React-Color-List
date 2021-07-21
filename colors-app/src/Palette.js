@@ -32,6 +32,7 @@ class Palette extends Component {
       />
     ));
     return (
+      <div className={classes.Wrapper}>
       <div className={classes.Palette}>
         <Navbar
           level={level}
@@ -41,6 +42,7 @@ class Palette extends Component {
         />
         <div className={classes.colors}>{colorBoxes}</div>
         <PaletteFooter paletteName={paletteName} emoji={emoji} />
+      </div>
       </div>
     );
   }
