@@ -11,14 +11,14 @@ export default {
     }
   },
   root: {
-    height: "100vh",
+    height: "-webkit-fill-available",
     display: "flex",
     alignItems: "flex-start",
     justifyContent: "center",
     /* background by SVGBackgrounds.com */
     backgroundColor: "#fff",
     backgroundImage: `url(${bg})`,
-    overflow: "overlay"
+    overflow: "scroll"
   },
   heading: {
     fontSize: "2rem",
