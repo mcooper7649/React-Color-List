@@ -6,7 +6,8 @@ export default {
     flexDirection: "column"
   },
   colors: {
-    height: "90%"
+    height: "-webkit-fill-available!important",
+    margin: "1%"
   },
   goBack: {
     width: "20%",

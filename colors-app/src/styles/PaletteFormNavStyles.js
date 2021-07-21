@@ -42,6 +42,7 @@ const styles = theme => ({
   },
   button: {
     margin: "0 0.5rem",
+    display: "inline-block",
     [sizes.down("xs")]: {
       margin: "0 0.2rem",
       padding: "0.3rem"
