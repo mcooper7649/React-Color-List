@@ -5,6 +5,7 @@ export default {
     display: "flex",
     flexDirection: "column"
   },
+
   colors: {
     height: "-webkit-fill-available!important",
     margin: "1%"

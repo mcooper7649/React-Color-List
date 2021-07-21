@@ -16,7 +16,7 @@ export default {
     alignItems: "flex-start",
     justifyContent: "center",
     /* background by SVGBackgrounds.com */
-    backgroundColor: "#394bad",
+    backgroundColor: "#fff",
     backgroundImage: `url(${bg})`,
     overflow: "scroll"
   },
@@ -29,7 +29,6 @@ export default {
   container: {
     width: "50%",
     display: "flex",
-    padding: "0 0 40px 0",
     alignItems: "flex-start",
     flexDirection: "column",
     flexWrap: "wrap",

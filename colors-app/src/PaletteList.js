@@ -16,6 +16,7 @@ import MiniPalette from "./MiniPalette";
 import blue from "@material-ui/core/colors/blue";
 import red from "@material-ui/core/colors/red";
 import styles from "./styles/PaletteListStyles";
+import Footer from "./Footer";
 
 var emoji = require('node-emoji')
 let paletteImg = emoji.get('art');
@@ -70,6 +71,7 @@ handleClick(){
               </a>
               </div>
           </nav>
+          
           <TransitionGroup className={classes.palettes}>
             {palettes.map(palette => (
               <CSSTransition key={palette.id} classNames='fade' timeout={500}>
@@ -83,7 +85,11 @@ handleClick(){
               </CSSTransition>
             ))}
           </TransitionGroup>
+          <div>
+        <Footer />
         </div>
+        </div>
+
         <Dialog
           open={openDeleteDialog}
           aria-labelledby='delete-dialog-title'
