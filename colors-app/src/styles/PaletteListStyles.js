@@ -18,7 +18,7 @@ export default {
     /* background by SVGBackgrounds.com */
     backgroundColor: "#fff",
     backgroundImage: `url(${bg})`,
-    overflow: "auto"
+    overflow: "overlay"
   },
   heading: {
     fontSize: "2rem",
