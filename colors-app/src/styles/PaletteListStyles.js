@@ -46,7 +46,7 @@ export default {
   },
   nav: {
     display: "flex",
-    width: "99%",
+    width: "100%",
     justifyContent: "space-between",
     alignItems: "center",
     color: "#2e4357",
@@ -63,7 +63,7 @@ export default {
       width: "97%"
     },
     [sizes.down("xs")]: {
-      width: "100%"
+      width: "97%"
     }
   },
   palettes: {
