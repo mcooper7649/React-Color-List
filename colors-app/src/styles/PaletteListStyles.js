@@ -21,7 +21,7 @@ export default {
     overflow: "scroll"
   },
   heading: {
-    fontSize: "3rem",
+    fontSize: "2rem",
     width: "100%",
     backgroundColor: "rgba(255,202,131,0.7)",
     padding: "20px",
