@@ -1,6 +1,6 @@
 export default {
   root: {
-    backgroundColor: "white",
+    backgroundColor: "rgba(255,202,131,0.7)",
     border: "1px solid black",
     borderRadius: "5px",
     padding: "0.5rem",

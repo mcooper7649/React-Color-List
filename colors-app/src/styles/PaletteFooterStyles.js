@@ -2,12 +2,14 @@ import sizes from "./sizes";
 
 export default {
   PaletteFooter: {
-    backgroundColor: "#d7f1f3",
+    backgroundColor: "#FFF",
     height: "8vh",
     display: "flex",
     justifyContent: "flex-end",
     alignItems: "center",
     fontWeight: "bold",
+    position: "fixed",
+    background: "fixed"
   },
   emoji: {
     fontSize: "1.5rem",

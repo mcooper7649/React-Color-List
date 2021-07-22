@@ -6,7 +6,6 @@ export default {
     WebkitOverflowScrolling: "touch",
     flexDirection: "column"
   },
-
   colors: {
     height: "86vh !important"
   },
