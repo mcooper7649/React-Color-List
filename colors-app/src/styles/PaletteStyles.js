@@ -1,15 +1,13 @@
 import sizes from "./sizes";
 export default {
   Palette: {
-    height: "94vh",
+    height: "100vh",
     overflow: "scroll",
-    display: "flex",
     flexDirection: "column"
   },
 
   colors: {
-    height: "-webkit-fill-available!important",
-    margin: "1%"
+    height: "100vh !important",
   },
   goBack: {
     width: "20%",
