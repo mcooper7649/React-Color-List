@@ -8,6 +8,7 @@ import Page from "./Page";
 import NewPaletteForm from "./NewPaletteForm";
 import seedColors from "./seedColors";
 import { generatePalette } from "./colorHelpers";
+import { Helmet } from 'react-helmet';
 
 class App extends Component {
   constructor(props) {
@@ -44,6 +45,24 @@ class App extends Component {
   }
   render() {
     return (
+      <div className='App'>
+      <Helmet>
+      <meta charset="utf-8" data-react-helmet="true" />
+          {/* <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" /> */}
+          <meta name="title" content="React Utility App | Handy Palette" property="og:title"  data-react-helmet="true" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta name="theme-color"  data-react-helmet="true" />
+
+          <meta name="image" property="og:image" content="https://image.prntscr.com/image/1uT-zq4ORMyfurl9oSmvyw.png"  data-react-helmet="true" />
+          <meta name="url" property="og:url" content="https:www.mycodedojo.com"  data-react-helmet="true"/>
+          <meta name="description" property="og:description"  content="Handy Palette | Here Is A Handy Tool Thats Great For Development. Whether You Need To Pick A Color Palette With Your Mobile or Computer, Handy Palette Has You Covered. " data-react-helmet="true" />
+          <meta name="author" property="og:author" content="Michael Cooper"  data-react-helmet="true"/>
+
+          <meta name="publish_date" property="og:publish_date" content="2021-07-21T00:00:00-0600"  data-react-helmet="true"/>
+          <script src="https://kit.fontawesome.com/8cc1b75eb3.js" crossorigin="anonymous"></script>
+          <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet" />
+          <title>React App | Handy Palette</title>
+      </Helmet>
       <Route
         render={({ location }) => (
           <TransitionGroup>
@@ -116,8 +135,11 @@ class App extends Component {
               </Switch>
             </CSSTransition>
           </TransitionGroup>
-        )}
+          
+        )} 
       />
+      </div>
+      
     );
   }
 }

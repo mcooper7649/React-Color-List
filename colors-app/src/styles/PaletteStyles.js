@@ -3,11 +3,13 @@ export default {
   Palette: {
     height: "100vh",
     flexDirection: "column",
+    backgroundColor: "linen",
   },
   colors: {
     height: "86vh !important",
     [sizes.down("sm")]: {
-      height: "70vh !important",
+      height: "73vh !important",
+      padding: "30px",
     }
   },
   goBack: {

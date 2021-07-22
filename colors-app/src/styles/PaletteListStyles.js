@@ -25,7 +25,10 @@ export default {
     width: "100%",
     backgroundColor: "rgba(255,202,131,0.7)",
     padding: "20px",
-    borderRadius: "10px 100px / 120px"
+    borderRadius: "10px 100px / 120px",
+    [sizes.down("xs")]: {
+      fontSize: "1.4rem"
+    }
   },
   container: {
     width: "50%",
@@ -68,7 +71,7 @@ export default {
   },
   wrapper: {
     display: "flex",
-    float: "right"
+    float: "right",
   },
   palettes: {
     boxSizing: "border-box",
@@ -88,6 +91,7 @@ export default {
     margin: "0 0.5rem",
     padding: "0.5rem",
     textDecoration: "none",
+    borderRadius: "3%",
     [sizes.down("xs")]: {
       margin: "0 0.2rem",
       padding: "0 0.3rem"
