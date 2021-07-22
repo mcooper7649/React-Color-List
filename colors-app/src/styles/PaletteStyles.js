@@ -1,7 +1,7 @@
 import sizes from "./sizes";
 export default {
   Palette: {
-    height: "100vh",
+    height: "94vh",
     overflow: "scroll",
     display: "flow-root",
     flexDirection: "column"
