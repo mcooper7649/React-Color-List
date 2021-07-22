@@ -2,12 +2,10 @@ import sizes from "./sizes";
 export default {
   Palette: {
     height: "100vh",
-    overflowScrolling: "touch",
-    WebkitOverflowScrolling: "touch",
-    flexDirection: "column"
+    flexDirection: "column",
   },
   colors: {
-    height: "86vh !important"
+    height: "80vh !important"
   },
   goBack: {
     width: "20%",

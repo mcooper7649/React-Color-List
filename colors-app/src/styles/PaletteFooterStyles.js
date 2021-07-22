@@ -3,7 +3,6 @@ import sizes from "./sizes";
 export default {
   PaletteFooter: {
     backgroundColor: "#FFF",
-    height: "8vh",
     display: "flex",
     justifyContent: "flex-end",
     alignItems: "center",
