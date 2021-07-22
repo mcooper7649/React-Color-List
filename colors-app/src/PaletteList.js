@@ -62,11 +62,11 @@ handleClick(){
            {paletteImg} Handy Palette
            <div className={classes.wrapper}>
               <a className={classes.button} href="/">
-              <Button variant='contained'
+              <Button variant='outlined'
                 color='secondary'
                 onClick={this.handleClick}
               >
-              Restore
+              Reset Default
               </Button>
               </a>
               </div>

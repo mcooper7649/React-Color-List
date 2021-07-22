@@ -21,13 +21,13 @@ export default {
     overflow: "scroll"
   },
   heading: {
-    fontSize: "2rem",
+    fontSize: "3rem",
     width: "100%",
     backgroundColor: "rgba(255,202,131,0.7)",
     padding: "20px",
     borderRadius: "10px 100px / 120px",
     [sizes.down("xs")]: {
-      fontSize: "1.4rem"
+      fontSize: "1.2rem"
     }
   },
   container: {
@@ -45,7 +45,7 @@ export default {
   },
   div: {
     margin: "10px",
-    display: "inline-grid"
+    display: "inline-grid",
   },
   nav: {
     display: "flex",
@@ -72,6 +72,7 @@ export default {
   wrapper: {
     display: "flex",
     float: "right",
+    fontSize:"10px !important",
   },
   palettes: {
     boxSizing: "border-box",
@@ -88,13 +89,14 @@ export default {
     }
   },
   button: {
-    margin: "0 0.5rem",
-    padding: "0.5rem",
+    // margin: "0 0.5rem",
+    // padding: "0.5rem",
     textDecoration: "none",
     borderRadius: "3%",
     [sizes.down("xs")]: {
-      margin: "0 0.2rem",
-      padding: "0 0.3rem"
+      // margin: "0 0.2rem",
+      // padding: "0 0.3rem"
+      fontSize:"10px !important",
     }
   },
 };

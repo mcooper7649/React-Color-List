@@ -8,14 +8,19 @@ export default {
     height: "6vh"
   },
   icon: {
-    color: "rgba(0,0,0,0.6)"
+    color: "#e11d23",
+    backgroundColor: "linen",
+    '&:hover': {
+      color: '#4f51b3',
+    },
+
   },
   logo: {
     marginRight: "15px",
     height: "2em",
     padding: "0 13px",
     fontSize: "45px",
-    backgroundColor: "#d7f1f3",
+    backgroundColor: "linen",
     fontFamily: "Roboto",
     height: "100%",
     display: "flex",
@@ -52,5 +57,6 @@ export default {
   selectContainer: {
     marginLeft: "auto",
     marginRight: "1rem",
+    backgroundColor: "powder"
   }
 };
