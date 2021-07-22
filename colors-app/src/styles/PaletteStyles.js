@@ -8,8 +8,8 @@ export default {
   colors: {
     height: "86vh !important",
     [sizes.down("sm")]: {
-      height: "73vh !important",
-      padding: "30px",
+      height: "72vh !important",
+      padding: "30px 30px 0px 30px",
     }
   },
   goBack: {
