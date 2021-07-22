@@ -2,7 +2,7 @@ import sizes from "./sizes";
 export default {
   Palette: {
     height: "100vh",
-    overflow: "scroll",
+    WebkitOverflowScrolling: 'touch',
     flexDirection: "column"
   },
 
