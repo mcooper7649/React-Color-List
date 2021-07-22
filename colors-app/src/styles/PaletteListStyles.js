@@ -22,6 +22,7 @@ export default {
   },
   heading: {
     fontSize: "2rem",
+    width: "100%",
     backgroundColor: "rgba(255,202,131,0.7)",
     padding: "20px",
     borderRadius: "10px 100px / 120px"
@@ -64,6 +65,10 @@ export default {
     [sizes.down("xs")]: {
       width: "97%"
     }
+  },
+  wrapper: {
+    display: "flex",
+    float: "right"
   },
   palettes: {
     boxSizing: "border-box",

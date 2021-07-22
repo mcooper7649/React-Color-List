@@ -59,8 +59,8 @@ handleClick(){
         <div className={classes.container}>
           <nav className={classes.nav}>
             <h1 className={classes.heading}>
-           {paletteImg} Handy Palette</h1>
-            <div className={classes.wrapper}>
+           {paletteImg} Handy Palette
+           <div className={classes.wrapper}>
               <a className={classes.button} href="/">
               <Button variant='contained'
                 color='secondary'
@@ -70,6 +70,7 @@ handleClick(){
               </Button>
               </a>
               </div>
+           </h1>
           </nav>
           
           <TransitionGroup className={classes.palettes}>
