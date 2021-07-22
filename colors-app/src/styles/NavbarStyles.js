@@ -12,6 +12,8 @@ export default {
   },
   logo: {
     marginRight: "15px",
+    width: "3em",
+    height: "2em",
     padding: "0 13px",
     fontSize: "22px",
     backgroundColor: "#d7f1f3",

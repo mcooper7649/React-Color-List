@@ -5,7 +5,10 @@ export default {
     flexDirection: "column",
   },
   colors: {
-    height: "80vh !important"
+    height: "86vh !important",
+    [sizes.down("sm")]: {
+      height: "70vh !important",
+    }
   },
   goBack: {
     width: "20%",
