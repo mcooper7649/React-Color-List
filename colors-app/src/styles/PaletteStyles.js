@@ -7,7 +7,7 @@ export default {
   },
 
   colors: {
-    height: "100vh !important",
+    height: "86vh !important"
   },
   goBack: {
     width: "20%",
